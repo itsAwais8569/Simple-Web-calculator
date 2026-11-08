@@ -1,0 +1,59 @@
+/* Container styles */
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #1e1e1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Calculator box */
+.calculator {
+    background: #2c2c2c;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Form inputs (buttons and display) */
+.calculator form input {
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -5px -5px 15px #3a3a3a, 5px 5px 15px #1a1a1a;
+    background: transparent;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/* Display container */
+form .display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+/* Display input field */
+form .display input[name="display"] {
+    flex: 1;
+    font-size: 45px;
+    text-align: right;
+    box-shadow: none;
+    background: transparent;
+    color: white;
+    cursor: default;
+}
+
+/* Equal button width */
+form input.equal {
+    width: 145px;
+}
+
+/* Operator buttons color */
+form input.operator {
+    color: #ff9500;
+}
